@@ -9,17 +9,17 @@ The cost of the spanning tree is the sum of the weights of all the edges in the 
     1) Minimum cost of covering/spaning all the vertex
     2) There can be many spanning Tree
 
-!(hello)[https://he-s3.s3.amazonaws.com/media/uploads/146b47a.jpg]
+![spanning-tree](https://he-s3.s3.amazonaws.com/media/uploads/146b47a.jpg)
 
 
 ### Algorithms For Finding the Minimum Spanning Tree
-> 1) **Kruskal's Algorithm**
-> 2) **Prim's Algorithm**
+ 1) **Kruskal's Algorithm**
+ 2) **Prim's Algorithm**
      
 ### Kruskal's Algorithm
 Kruskal’s Algorithm builds the spanning tree by adding edges one by one into a growing spanning tree. Kruskal's algorithm follows greedy approach as in each iteration it finds an edge which has least weight and add it to the growing spanning tree. 
 
-    ** Algorithm Steps**:
+     Algorithm Steps:
           * Sort the graph edges with respect to their weights.
           * Start adding edges to the MST from the edge with smallest weight until the edge of the largest weight.
           * Only add edges which doesn't form a cycle, edges which connect only disconnected components.
