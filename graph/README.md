@@ -92,6 +92,7 @@ void bfs (int start)
 
 ```
 Let's understand this code with the following graph:
+
 ![bfs-01](https://he-s3.s3.amazonaws.com/media/uploads/2ffb073.jpg)
 
 **Processing**
