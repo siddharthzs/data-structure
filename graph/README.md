@@ -144,6 +144,8 @@ O(V+E), when implemented using an adjacency list.
 ** Application **
 How to find connected components using DFS?
 
+<hr>
+
 ## Minimum Spanning Tree
 
 ### Spanning Tree
